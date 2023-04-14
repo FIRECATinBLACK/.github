@@ -1,9 +1,9 @@
-name: Bug Report
-description: File a bug report
+name: Bugs and Issues
+description: File a report about a bug or issue caused by the Spikecat mod
 title: "[Bug]: "
 labels: ["bug", "triage"]
 assignees:
-  - octocat
+  - firecatinblack
 body:
   - type: markdown
     attributes:
