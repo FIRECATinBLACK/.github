@@ -74,5 +74,5 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report! Before you get started please search for your problem in the already existing issues to avoid any duplicates!
+        Tip: you can find logs in C:\Program Files (x86)\Steam\steamapps\common\Rain World in the console.log and exception.log files. Please do NOT submit error logs that have been altered by the UwU text mod
   
