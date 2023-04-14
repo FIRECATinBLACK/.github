@@ -22,7 +22,7 @@ body:
     attributes:
       label: What happened?
       description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
+      placeholder: I did this and then the game did this and also that was visible and that other thing wasnt right either and it affected the gameplay in this way
     validations:
       required: true
   - type: textarea
