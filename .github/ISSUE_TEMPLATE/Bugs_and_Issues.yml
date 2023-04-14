@@ -1,6 +1,6 @@
 name: Mod bugs and issues
 description: File a report about a issue caused by this mod
-title: "[Bug or Issue]: "
+title: "Bug or Issue: "
 labels: ["bug"]
 assignees:
   - firecatinblack
