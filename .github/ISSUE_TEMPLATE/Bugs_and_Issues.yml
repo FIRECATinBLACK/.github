@@ -32,7 +32,7 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - Public Alpha
+        - 1.5.1.a (Public Alpha) 
         - 1.5.1.b (Beta Tester)
     validations:
       required: true
