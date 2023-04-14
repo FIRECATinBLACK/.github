@@ -53,11 +53,14 @@ body:
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
   - type: checkboxes
-    id: downpour
+    id: dependencies
     attributes:
-      label: Downpour DLC
-      description: Did you use the rainworld Downpour DLC and had the "More Slugcats Expansion" on?
+      label: Mod Dependencies
+      description: Select all the below mods that were used 
       options:
         - label: More Slugcats Expansion was enabled
+        - label: Rain World Remix was enabled
+        - label: Slugbase was enabled
+        - label: The Spikecat was enabled
           required: true
 
