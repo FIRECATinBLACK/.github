@@ -44,7 +44,7 @@ body:
       render: shell
   - type: markdown
   attributes:
-    value: "Tip: you can find logs in ```C:\Program Files (x86)\Steam\steamapps\common\Rain World``` in the console.log and exception.log files. Please do NOT submit error logs that have been altered by the UwU text mod"
+    value: "Tip: you can find logs by going to rainworld in your steam library, click the cog symbol, hover over Manage and then click on Browse Local Files. The needed log files are console.log and exception.log. Please do NOT submit logs that have been altered by the UwU text mod"
   - type: checkboxes
     id: downpour
     attributes:
