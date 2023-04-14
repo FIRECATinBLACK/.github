@@ -30,7 +30,7 @@ body:
     attributes:
       label: Steps to reproduce?
       description: Also tell us, what did you expect to happen?
-      placeholder: 1) start a new game, 2) go to this region 3) etc..
+      placeholder: 1) start a new game, 2) go to this region 3) etc.. > Result
     validations:
       required: true
   - type: dropdown
