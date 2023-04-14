@@ -61,6 +61,7 @@ body:
         - label: More Slugcats Expansion was enabled
         - label: Rain World Remix was enabled
         - label: Slugbase was enabled
+          required: true
         - label: The Spikecat was enabled
           required: true
 
