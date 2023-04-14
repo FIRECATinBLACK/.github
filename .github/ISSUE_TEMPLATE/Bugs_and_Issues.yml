@@ -1,6 +1,6 @@
 name: Bug Report
 description: File a bug report
-title: "[Bug or Issue]: Keep this summary short and simple fit for a readable title "
+title: "[Bug or Issue]: Keep this summary short and simple, fit for a readable title "
 labels: ["bug", "triage"]
 assignees:
   - FIRECATinBLACK
