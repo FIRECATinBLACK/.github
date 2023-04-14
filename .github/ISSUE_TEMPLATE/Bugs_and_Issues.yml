@@ -73,6 +73,6 @@ body:
       render: shell
   - type: markdown
   attributes:
-    value: " Tip: you can find logs in C:\Program Files (x86)\Steam\steamapps\common\Rain World in the console.log and exception.log files. Please do NOT submit error logs that have been altered by the UwU text mod"
+    value: " Tip: you can find logs in path in the console.log and exception.log files. Please do NOT submit error logs that have been altered by the UwU text mod"
 
 
