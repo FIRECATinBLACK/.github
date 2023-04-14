@@ -9,21 +9,28 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
   - type: textarea
     id: what-happened
     attributes:
       label: What happened?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: keep this one organized in a list format and include as many details as possible that could help figure this out
+      placeholder: 1) start a new game, 2) go to this region 3) etc..
+    validations:
+      required: true
+  - type: textarea
+    id: modlist
+    attributes:
+      label: Modlist
+      description: Did you use any other mods while this issue occured? If so please list them here
+      placeholder: 1) start a new game, 2) go to this region 3) etc..
     validations:
       required: true
   - type: dropdown
@@ -32,31 +39,23 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - Public Beta (Default)
     validations:
       required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
   - type: textarea
     id: logs
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
+  - type: markdown
+  attributes:
+    value: " Tip: you can find logs in C:\Program Files (x86)\Steam\steamapps\common\Rain World in the console.log and exception.log files. Please do NOT submit error logs that have been altered by the UwU text mod"
   - type: checkboxes
-    id: terms
+    id: downpour
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      label: Downpour DLC
+      description: Did you use the rainworld Downpour DLC and had the "More Slugcats Expansion" on?
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: More Slugcats Expansion was enabled
           required: true
