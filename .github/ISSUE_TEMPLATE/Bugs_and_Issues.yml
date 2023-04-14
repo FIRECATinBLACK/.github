@@ -36,20 +36,28 @@ body:
         - 1.5.1.b (Beta Tester)
     validations:
       required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
   - type: textarea
     id: logs
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
-  - type: markdown
-  attributes:
-    value: Tip: you can find logs by going to rainworld in your steam library, click the cog symbol, hover over Manage and then click on Browse Local Files. The needed log files are console.log and exception.log. Please do NOT submit logs that have been altered by the UwU text mod
   - type: checkboxes
-    id: downpour
+    id: terms
     attributes:
-      label: Downpour DLC
-      description: Did you use the rainworld Downpour DLC and had the "More Slugcats Expansion" on?
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
       options:
-        - label: More Slugcats Expansion was enabled
+        - label: I agree to follow this project's Code of Conduct
           required: true
+
