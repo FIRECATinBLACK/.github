@@ -21,8 +21,8 @@ body:
   - type: textarea
     id: steps-to-reproduce
     attributes:
-      label: Steps to reproduce?
-      description: Also tell us, what did you expect to happen?
+      label: Steps to reproduce
+      description: keep this one organized in a list format and include as many details as possible that could help figure this out
       placeholder: 1) start a new game, 2) go to this region 3) etc.. > Result
     validations:
       required: true
