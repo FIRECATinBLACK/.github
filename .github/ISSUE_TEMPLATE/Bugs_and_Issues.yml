@@ -53,11 +53,11 @@ body:
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
   - type: checkboxes
-    id: terms
+    id: downpour
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      label: Downpour DLC
+      description: Did you use the rainworld Downpour DLC and had the "More Slugcats Expansion" on?
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: More Slugcats Expansion was enabled
           required: true
 
