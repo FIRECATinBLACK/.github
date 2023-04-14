@@ -3,7 +3,8 @@ description: File a bug report
 title: "[Bug or Issue]: "
 labels: ["bug", "triage"]
 assignees:
-  - octocat
+  - FIRECATinBLACK
+  - OneQuish
 body:
   - type: markdown
     attributes:
