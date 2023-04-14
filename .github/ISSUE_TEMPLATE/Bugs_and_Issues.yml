@@ -19,6 +19,15 @@ body:
       value: "A bug happened!"
     validations:
       required: true
+   - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: keep this one organized in a list format and include as many details as possible that could help figure this out
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
   - type: dropdown
     id: version
     attributes:
