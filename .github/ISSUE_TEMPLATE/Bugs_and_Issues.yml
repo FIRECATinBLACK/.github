@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report! Before you get started please search for the behaviour in the existing issues to avoid duplicates!
+        Thanks for taking the time to fill out this bug report! Before you get started please search for your problem in the already existing issues to avoid any duplicates!
   - type: textarea
     id: what-happened
     attributes:
