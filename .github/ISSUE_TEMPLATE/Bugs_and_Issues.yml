@@ -71,8 +71,4 @@ body:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
-  - type: markdown
-  attributes:
-    value: " Tip: you can find logs in path in the console.log and exception.log files. Please do NOT submit error logs that have been altered by the UwU text mod"
-
-
+      
