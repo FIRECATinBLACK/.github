@@ -64,4 +64,12 @@ body:
           required: true
         - label: The Spikecat was enabled
           required: true
+  - type: textarea
+    id: additional-mods
+    attributes:
+      label: Additional Mods
+      description: If you used any other mods at the time of this happening please list them here, if this doesnt apply simply type "none"
+      placeholder: 1) Drainage Cleaner, 2) Jolly Co-op 3) etc..
+    validations:
+      required: true
 
